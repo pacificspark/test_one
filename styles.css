@@ -1,0 +1,166 @@
+body {
+    
+/* background-color: #c7b39b;  */
+color: #293753;
+
+font-size: 16px;
+font-weight: normal;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* body{
+    background-image: url('ps\ —\ копия.jpg'); 
+    background-repeat: no-repeat;
+    background-size:  50%;
+    background-position: 0 100%;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+   
+} */
+
+    /* .image {
+        height: 100%;
+        background-image: url('ps\ —\ копия.jpg');
+        filter: blur(8px);
+  }  */
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;  
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: grey;
+}
+
+.pic {
+width: 300px;
+margin: 0;
+ 
+box-shadow: 4px 4px 14px rgba (0,0,0,0.25);
+}
+
+
+/* .info {
+    display: flex;
+    margin-bottom: 20px;
+} */
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info h1 {
+    letter-spacing: 1px;
+    color: black;
+    font-size: 600%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif 
+}
+
+.info {
+    margin-bottom: 15px;
+}
+
+.info p {
+color: #86898f;
+margin: 0%;
+font-style: italic;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+
+/* box model */
+.container {
+max-width: 750px; 
+margin: auto; 
+}
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.card {
+  padding: 15px 20px;  
+  margin-bottom: 15px;
+  border-radius: 20px;
+}
+
+.card h2 {
+   margin-bottom: 15px; 
+}
+
+.table {
+   width: 100%; 
+}
+.table td {
+    padding-bottom: 5px;
+}
+.contact h2 {
+    text-align: center;
+}
+.form-group label {
+display: block;
+font-size: 14px;
+color: #000000 ;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.btn {
+background: #111 ;
+padding: 15px 20px;
+color: #fff;
+border: none;
+font-family: inherit;
+cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+/* .social {
+background: rgb(255, 251, 3);
+padding: 15px 40px;
+
+border: 5px solid red;
+border-bottom-style: dotted;
+border-top-width: 15px ;
+margin: 20px;
+} */
+
+/* .boxmodel div {
+float: left;
+background: black;
+height: 200px;
+border: 4px solid red ;
+width: 25%;
+box-sizing: border-box;
+
+} */
